@@ -262,6 +262,40 @@ span{
     height: 64px;
 }
 
+/* footer section start here  */
+footer{
+    background-color: #111010;
+    width:100%;
+    height: 449px;
+    margin-top: 128px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+    
+}
+.footer-content{
+    text-align: center;
+    
+}
+    
+
+.footer-content>.footer-tile{
+    font-size: 48px;
+    font-weight: 800;
+    color:#FFFFFF;
+}
+.footer-content>.footer-subtitle{
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 24px;
+    color:#FFFFFF;
+    line-height: 30px;
+}
+.footer-content>.footer-submisson{
+    color: #FFFFFF;
+    margin-top: 32px;
+}
 
 
 /* responsive media quary  */
@@ -336,6 +370,12 @@ span{
     }
     .button{
         height: 100%;
+    }
+    footer{
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        padding: 20px;
     }
    
     .main-heading{
