@@ -88,17 +88,18 @@
     gap:30px;
     width:90%;
     margin: 120px auto;
-    height:605px;
+    height:500px;
 }
 .card-image{
     width:385px;
-    height:605px;
+    height:500px;
 }
 .card-image>p{
      text-align: center;
      margin-top: 32px;
      font-size: 20px;
      font-weight: bold;
+     text-decoration: underline;
 }
 .flowers-img{
     width:385px;
@@ -123,6 +124,31 @@
     border-radius: 50% 50% 0px 0px;
     background-color: rgba(71, 125, 17, 0.15);
 }
+
+/* customer care start here */
+.customer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin:140px auto;
+    width:90%;
+    height: 320px;
+    background-color: rgba(39, 39, 39, 0.05);
+    border-radius: 5px;
+}
+.customer-content{
+    text-align: center;
+    max-width:200px;
+}
+.customer-content img{
+    width: 88px;
+    height: 88px;
+}
+.customer-content p{
+    font-size: 16px;
+    margin-top: 24px;
+}
+
 /* responsive media quary  */
 @media screen and (max-width:576px) {
     .header{
@@ -130,11 +156,7 @@
         width: 100%;
         height: 100%;
         
-    }
-    .card{
-        flex-direction: column;
-        width: 100%;
-    }
+    }  
     .header-content{
         width: 100%;
         height: 100%;
@@ -145,9 +167,28 @@
         width:100%;
         height: 100%;
     }
+    .card{
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+    }
+    .customer{
+        flex-direction: column;
+        padding:20px;
+        margin: 20;
+        gap:40px;
+        width: 100%;
+        height: 100%;
+        
+    }
+    .customer-content{
+        max-width: 100%;
+    }
+   
     .main-heading{
         width:100%;
-        height: 100%;
+        height:100%;
+        
     }
 
 }
